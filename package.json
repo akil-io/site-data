@@ -1,0 +1,33 @@
+{
+  "name": "site-data",
+  "version": "1.0.0",
+  "description": "Website schema based crawler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akil-io/site-data.git"
+  },
+  "keywords": [
+    "crawler",
+    "scrapper",
+    "parser"
+  ],
+  "author": "Alex Martynov <fenixdeveloper@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akil-io/site-data/issues"
+  },
+  "homepage": "https://github.com/akil-io/site-data#readme",
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "iconv-lite": "^0.5.0",
+    "jsdom": "^15.2.1",
+    "request": "^2.88.0"
+  }
+}
